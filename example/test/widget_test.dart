@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_test/flutter_test.dart';
 import 'package:awesome_snackbar_content/awesome_snackbar_content.dart';
-import 'package:example/main.dart';
+import '../main.dart';
 
 void main() {
   group('AwesomeSnackBar Example Tests', () {
