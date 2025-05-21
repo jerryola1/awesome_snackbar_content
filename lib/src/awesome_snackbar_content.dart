@@ -173,7 +173,7 @@ class AwesomeSnackbarContent extends StatelessWidget {
                         title,
                         style: titleTextStyle ??
                             TextStyle(
-                              fontSize: !isMobile ? 22 : 18,
+                              fontSize: !isMobile ? 10 : 12,
                               fontWeight: FontWeight.w600,
                               color: Colors.white,
                             ),
@@ -203,7 +203,7 @@ class AwesomeSnackbarContent extends StatelessWidget {
                     message,
                     style: messageTextStyle ??
                         TextStyle(
-                          fontSize: isMobile ? 14 : 16,
+                          fontSize: isMobile ? 10 : 12,
                           color: Colors.white,
                         ),
                     maxLines: isMobile ? 2 : 3,
